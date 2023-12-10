@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import AnimeList from './components/Animelist'
+import AnimeList from '@/components/Animelist'
 
 const HOME = async () => {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime?limit=10`)
