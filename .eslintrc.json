@@ -1,3 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "standard"]
+  "extends": ["next/core-web-vitals", "standard"],
+  "rules": {"eslint-disable no-unused-expressions": true}
 }
+  
+
